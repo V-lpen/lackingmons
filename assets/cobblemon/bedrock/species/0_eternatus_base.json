@@ -6,22 +6,22 @@
             "aspects": [],
             "poser": "cobblemon:eternatus",
             "model": "cobblemon:eternatus.geo",
-            "texture": "cobblemon:textures/pokemon/eternatus/eternatus.png",
+            "texture": "cobblemon:textures/pokemon/0890_eternatus/eternatus.png",
             "layers": [
                 {
                     "name": "emissive",
-                    "texture": "cobblemon:textures/pokemon/eternatus/eternatus_emissive.png",
+                    "texture": "cobblemon:textures/pokemon/0890_eternatus/eternatus_emissive.png",
                     "emissive": true
                 },
                 {
                     "name": "emissive_translucent",
-                    "texture": "cobblemon:textures/pokemon/eternatus/eternatus_translucent_emissive.png",
+                    "texture": "cobblemon:textures/pokemon/0890_eternatus/eternatus_translucent_emissive.png",
                     "emissive": true,
                     "translucent": true
                 },
                 {
                     "name": "translucent",
-                    "texture": "cobblemon:textures/pokemon/eternatus/eternatus_translucent.png",
+                    "texture": "cobblemon:textures/pokemon/0890_eternatus/eternatus_translucent.png",
                     "translucent": true
                 }
             ]
@@ -32,22 +32,22 @@
             ],
             "poser": "cobblemon:eternatus",
             "model": "cobblemon:eternatus.geo",
-            "texture": "cobblemon:textures/pokemon/eternatus/eternatus_shiny.png",
+            "texture": "cobblemon:textures/pokemon/0890_eternatus/eternatus_shiny.png",
             "layers": [
                 {
                     "name": "emissive",
-                    "texture": "cobblemon:textures/pokemon/eternatus/eternatus_shiny_emissive.png",
+                    "texture": "cobblemon:textures/pokemon/0890_eternatus/eternatus_shiny_emissive.png",
                     "emissive": true
                 },
 				                {
                     "name": "emissive_translucent",
-                    "texture": "cobblemon:textures/pokemon/eternatus/eternatus_translucent_emissive_shiny.png",
+                    "texture": "cobblemon:textures/pokemon/0890_eternatus/eternatus_translucent_emissive_shiny.png",
                     "emissive": true,
                     "translucent": true
                 },
                 {
                     "name": "translucent",
-                    "texture": "cobblemon:textures/pokemon/eternatus/eternatus_translucent_shiny.png",
+                    "texture": "cobblemon:textures/pokemon/0890_eternatus/eternatus_translucent_shiny.png",
                     "translucent": true
                 }
             ]
