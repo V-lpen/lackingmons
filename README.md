@@ -20,7 +20,14 @@ Sneasel
 
 ## Paldean:
 
-[[[
+
+
+
+
+
+
+
+
 # Coming Soon: 
 
 Corsola (Fire, Bubble, Horn, Tube coral variants)
@@ -48,4 +55,4 @@ Qwilfish
 
 ## Paldean:
 Tauros (Blaze, Aqua, Combat Breed)
-]]]
+
