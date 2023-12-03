@@ -1,0 +1,80 @@
+{
+  "head": "head",
+  "portraitScale": 1.65,
+  "portraitTranslation": [0, -0.6, 0],
+  "profileScale": 1,
+  "profileTranslation": [0, 0.15, 0],
+  "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "transformTicks": 10,
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "transformedParts": [],
+      "animations": ["bedrock(, battle_idle)"],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(ironvaliant, blink)"
+          ]
+        },
+        {
+         "name": "happy-quirk",
+         "animations": [
+           "bedrock(ironvaliant, happy_quirk)"
+         ]
+       }
+      ]
+     },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "look",
+        "bedrock(ironvaliant, ground_idle)"
+      ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(ironvaliant, blink)"
+         ]
+       },
+       {
+        "name": "happy-quirk",
+        "animations": [
+          "bedrock(ironvaliant, happy_quirk)"
+        ]
+      }
+     ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "animations": [ "bedrock(ironvaliant, ground_walk)" ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(ironvaliant, blink)"
+          ]
+        },
+        {
+         "name": "happy-quirk",
+         "animations": [
+           "bedrock(ironvaliant, happy_quirk)"
+         ]
+       }
+      ]
+    }
+  }
+ }
