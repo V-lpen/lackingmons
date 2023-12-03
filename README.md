@@ -2,34 +2,42 @@
 Addon adding missing Cobblemon to the game!
 
 Eternatus
+regieleki
 
 ## Alolan:
 
 ## Galarian:
 Weezing
-MrMime
 Slowpoke
 Slowbro
 Slowking
 
 ## Hisuian:
-Avalugg
 Voltorb
-Electrode
 Sneasel
 
 ## Paldean:
 
-[[[
+
+
+
+
+
+
+
+
 # Coming Soon: 
 
+Tympole evo line
+Slaking
+Budew evo line
 Corsola (Fire, Bubble, Horn, Tube coral variants)
 Cursola
-Eternatus Eternemax
+Eternatus Eternamax
+Qwilfish
 Overqwil
 MrRime
 Regidrago
-Regieleki
 
 ## Alolan:
 Geodude
@@ -40,12 +48,14 @@ Sandslash
 
 ## Galarian:
 Corsola
+MrMime
 Koffing
 
 ## Hisuian:
 Bergmite
+Avalug
 Qwilfish
 
 ## Paldean:
 Tauros (Blaze, Aqua, Combat Breed)
-]]]
+
