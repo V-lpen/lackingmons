@@ -1,8 +1,7 @@
 {
-    "head": "head",
     "portraitScale": 1.25,
-    "faint": "bedrock(eternatus, faint)",
-    "cry": "bedrock(eternatus, cry)",
+    "faint": "bedrock(eternamax_eternatus, faint)",
+    "cry": "bedrock(eternamax_eternatus, cry)",
     "portraitTranslation": [
         0,
         0.5,
@@ -22,36 +21,20 @@
                 "STAND",
                 "NONE",
                 "PORTRAIT",
-                "PROFILE",
-				"HOVER"
+                "PROFILE"
             ],
             "animations": [
-                "look",
-                "bedrock(eternatus, ground_idle)"
+                "bedrock(eternamax_eternatus, ground_idle)"
             ]
         },
         "walking": {
             "poseName": "walking",
             "transformTicks": 10,
             "poseTypes": [
-                "WALK",
-				"FLY"
+                "WALK"
             ],
             "animations": [
-                "look",
-                "bedrock(eternatus, ground_walk)"
-            ]
-        },
-        "battle-idle": {
-            "poseName": "battle-idle",
-            "transformTicks": 10,
-            "isBattle": true,
-            "poseTypes": [
-                "STAND"
-            ],
-            "animations": [
-                "look",
-                "bedrock(eternatus, battle_idle)"
+                "bedrock(eternamax_eternatus, ground_walk)"
             ]
         }
     }

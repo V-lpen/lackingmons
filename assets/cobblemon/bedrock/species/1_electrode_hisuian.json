@@ -7,7 +7,7 @@
                 "hisuian"
             ],
             "model": "cobblemon:electrode_hisuian.geo",
-            "poser": "cobblemon:electrode",
+            "poser": "cobblemon:electrode_hisuian",
             "texture": "cobblemon:textures/pokemon/0101_electrode/electrode_hisuian.png"
         },
         {
