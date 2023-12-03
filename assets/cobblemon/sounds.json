@@ -1,0 +1,8 @@
+{
+    "pokemon.bergmite.ambient": {
+    "sounds": [ "cobblemon:pokemon/bergmite/bergmite_ambient" ]
+    },
+    "pokemon.avalugg.ambient": {
+        "sounds": [ "cobblemon:pokemon/avalugg/avalugg_ambient" ]
+    }
+}

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
     "target": "cobblemon:regieleki",
   "baseScale": 2,
@@ -11,7 +10,7 @@
     "moving": {
       "canLook": true,
       "fly": {
-        "canFly": false,
+        "canFly": true,
         "flySpeedHorizontal": 0.35
       }
     }
@@ -19,26 +18,4 @@
     "features": [
       "eternamax"
   ]
-=======
-{
-    "target": "cobblemon:regieleki",
-  "baseScale": 2,
-  "hitbox": {
-    "width": 2.3,
-    "height": 2.4,
-    "fixed": false
-  },
-  "behaviour": {
-    "moving": {
-      "canLook": true,
-      "fly": {
-        "canFly": false,
-        "flySpeedHorizontal": 0.35
-      }
-    }
-  },
-    "features": [
-      "eternamax"
-  ]
->>>>>>> 7027a3f882b516094cb7d185e547a70e0f5f5fee
 }

@@ -4,19 +4,19 @@
   "portraitTranslation": [0, 0, 0],
   "profileScale": 1,
   "profileTranslation": [0.05, 0.4, 0],
-  "faint":  "bedrock(regieleki, faint)",
+  "cry":  "bedrock(regidrago, cry)",
   "poses": {
     "standing": {
       "poseName": "standing",
       "transformTicks": 10,
       "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
-      "animations": ["look", "bedrock(regieleki, ground_idle)"]
+      "animations": ["look", "bedrock(regidrago, ground_idle)"]
   },
     "walking": {
       "poseName": "walking",
       "transformTicks": 10,
       "poseTypes": ["WALK"],
-      "animations": ["bedrock(regieleki, ground_walk)"]
+      "animations": ["bedrock(regidrago, ground_walk)"]
      }
   }
 }
