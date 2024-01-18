@@ -1,0 +1,22 @@
+{
+  "portraitScale": 0.5,
+  "portraitTranslation": [0, -1, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [0.05, 0.01, 0],
+  "faint":  "bedrock(dragapult, faint)",
+  "cry":  "bedrock(dragapult, cry)",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["bedrock(dragapult, ground_idle)"]
+  },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": ["bedrock(dragapult, ground_walk)"]
+     }
+  }
+}

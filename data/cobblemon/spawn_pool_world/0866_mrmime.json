@@ -1,0 +1,43 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "mrmime-galarian-1",
+            "pokemon": "mrmime galarian",
+            "presets": [
+                "village"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "26-46",
+            "weight": 8.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "mrmime-galarian-2",
+        "pokemon": "mrmime galarian",
+        "presets": [
+            "natural"
+        ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "rare",
+        "level": "26-46",
+        "weight": 8.0,
+        "condition": {
+            "canSeeSky": true,
+            "biomes": [
+                "#cobblemon:is_freezing"
+            ]
+        }
+    }
+    ]
+}

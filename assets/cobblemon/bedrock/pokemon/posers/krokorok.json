@@ -1,0 +1,62 @@
+{
+    "head": "head",
+    "faint": "bedrock(krokorok, faint)",
+    "cry": "bedrock(krokorok, cry)",
+    "portraitScale": 1.5,
+    "portraitTranslation": [
+        0,
+        0,
+        0
+    ],
+    "profileScale": 1,
+    "profileTranslation": [
+        0.05,
+        0.4,
+        0
+    ],
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "animations": [
+                "bedrock(krokorok, ground_idle)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(krokorok, blink)"
+                    ]
+                }
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [
+                "WALK"
+            ],
+            "animations": [
+                "bedrock(krokorok, ground_walk)"
+            ]
+        },
+        "battle-idle": {
+            "poseName": "battle-idle",
+            "transformTicks": 10,
+            "isBattle": true,
+            "poseTypes": [
+                "STAND"
+            ],
+            "animations": [
+                "look",
+                "bedrock(krokorok, battle_idle)"
+            ]
+        }
+    }
+}
