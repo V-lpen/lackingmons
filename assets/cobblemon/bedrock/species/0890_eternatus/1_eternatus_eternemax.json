@@ -29,6 +29,34 @@
                     "emissive": true
                 }
             ]
+        },
+		        {
+            "aspects": ["eternamax-wild"],
+            "poser": "cobblemon:eternamax_eternatus",
+            "model": "cobblemon:eternamax_eternatus.geo",
+            "texture": "cobblemon:textures/pokemon/0890_eternatus/eternamax/eternamax_eternatus.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/0890_eternatus/eternamax/eternamax_eternatus.png",
+                    "emissive": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "shiny","eternamax-wild"
+            ],
+            "poser": "cobblemon:eternamax_eternatus",
+            "model": "cobblemon:eternamax_eternatus.geo",
+            "texture": "cobblemon:textures/pokemon/0890_eternatus/eternamax/eternamax_eternatus_shiny.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/0890_eternatus/eternamax/eternamax_eternatus_shiny.png",
+                    "emissive": true
+                }
+            ]
         }
     ]
 }

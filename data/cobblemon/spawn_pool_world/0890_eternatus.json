@@ -5,7 +5,7 @@
  "spawns": [
    {
      "id": "eternatus-1",
-     "pokemon": "eternatus",
+     "pokemon": "eternatus eternamax-wild",
      "presets": [ "natural" ],
      "type": "pokemon",
      "context": "grounded",
