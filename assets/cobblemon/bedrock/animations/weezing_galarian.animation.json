@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.weezing.blink": {
+		"animation.weezing_galarian.blink": {
 			"animation_length": 0.16667,
 			"bones": {
 				"eyebrow_left": {
@@ -34,7 +34,7 @@
 				}
 			}
 		},
-		"animation.weezing.blink2": {
+		"animation.weezing_galarian.blink2": {
 			"animation_length": 0.16667,
 			"bones": {
 				"small_eyelid_left": {
@@ -53,7 +53,7 @@
 				}
 			}
 		},
-		"weezing.animation.ground_idle": {
+		"animation.weezing_galarian.ground_idle": {
 			"loop": true,
 			"animation_length": 4.41667,
 			"bones": {
