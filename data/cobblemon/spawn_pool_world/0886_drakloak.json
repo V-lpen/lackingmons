@@ -14,6 +14,20 @@
             "bucket": "rare",
             "level": "50-55",
             "weight": 0.9,
+            "weightMultipliers": [
+                {
+                                "multiplier": 1.2,
+                                "condition": {
+                                    "isRaining":"true"
+                                }
+                },
+                {
+                    "multiplier": 1.6,
+                    "condition": {
+                    "isThundering":"true"
+                    }
+                }
+            ],                    
             "condition": {
 		"canSeeSky": true,
                 "biomes": [

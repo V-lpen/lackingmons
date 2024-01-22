@@ -16,26 +16,10 @@
        "weight": 0.1,
        "condition": {
            "biomes": [
-               "#cobblemon:is_overworld"
+               "#cobblemon:is_overworld",
+            "#cobblemon:is_overworld"
            ]
        }
-    },
-    {
-    "id": "regieleki-2",
-    "pokemon": "regieleki",
-    "presets": [
-        "trail_ruins"
-    ],
-    "type": "pokemon",
-    "context": "grounded",
-    "bucket": "ultra-rare",
-    "level": "70",
-    "weight": 0.1,
-    "condition": {
-        "biomes": [
-            "#cobblemon:is_overworld"
-        ]
-       }
-     }
+    }
     ]
 }
