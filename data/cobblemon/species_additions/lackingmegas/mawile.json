@@ -1,0 +1,91 @@
+{
+  "target": "cobblemon:mawile",
+    "features": ["mega"],
+  "evolutions": [
+  {
+    "id": "mawile_megamawile",
+    "variant": "item_interact",
+    "result": "mawile form=mega",
+    "consumeHeldItem": true,
+    "requirements": [],
+    "requiredContext": "lackingmegas:key_stone"
+  },
+  {
+    "id": "mawile_megamawile1",
+    "variant": "item_interact",
+    "result": "mawile form=mega",
+    "consumeHeldItem": false,
+    "requirements": [],
+    "requiredContext": "lackingmegas:mega_ring"
+  }
+],
+  "forms": [
+  {"name": "base"
+  },
+    {
+      "name": "Mega",
+      "primaryType": "steel",
+      "secondaryType": "fairy",
+      "abilities": [
+        "hugepower"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 105,
+        "defence": 125,
+        "special_attack": 55,
+        "special_defence": 95,
+        "speed": 50
+      },
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 133,
+      "baseFriendship": 50,
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "fast",
+      "eggCycles": 20,
+      "eggGroups": [
+        "field",
+        "fairy"
+      ],
+      "labels": [
+        "gen6",
+        "mega"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "height": 10,
+      "weight": 235,
+      "cannotDynamax": false,
+      "battleOnly": true,
+	    "evolutions": [
+    {
+      "id": "megamawile-mawile-item_interact",
+      "variant": "item_interact",
+      "result": "mawile form=base",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "lackingmegas:key_stone"
+    },
+    {
+      "id": "megamawile-mawile-item_interact",
+      "variant": "item_interact",
+      "result": "mawile form=base",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "lackingmegas:mega_ring"
+    }
+  ]
+    }
+  ]
+}

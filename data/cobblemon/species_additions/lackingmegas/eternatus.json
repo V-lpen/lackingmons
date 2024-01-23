@@ -1,0 +1,123 @@
+{
+    "target": "cobblemon:eternatus",
+    "features": [
+        "eternamax-wild",
+		"eternamax"
+    ],
+    "baseScale": 10,
+    "hitbox": {
+        "width": 2.3,
+        "height": 2.4,
+        "fixed": false
+    },
+    "evolutions": [
+        {
+            "id": "eternatus_eternamax",
+            "variant": "item_interact",
+            "result": "eternatus form=eternamax",
+            "consumeHeldItem": true,
+            "requirements": [],
+            "requiredContext": "lackingmegas:eternamax_orb"
+        }
+    ],
+    "forms": [
+        {
+            "name": "base"
+        },
+        {
+            "name": "Eternamax",
+            "primaryType": "poison",
+            "secondaryType": "dragon",
+            "abilities": [
+                "pressure"
+            ],
+            "evolutions": [
+                {
+                    "id": "eternamax_eternatus",
+                    "variant": "item_interact",
+                    "result": "eternatus form=base",
+                    "consumeHeldItem": true,
+                    "requirements": [],
+                    "requiredContext": "lackingmegas:eternamax_orb"
+                }
+            ],
+            "baseScale": 10,
+            "hitbox": {
+                "width": 2.3,
+                "height": 2.4,
+                "fixed": false
+            },
+            "baseStats": {
+                "hp": 255,
+                "attack": 115,
+                "defence": 250,
+                "special_attack": 125,
+                "special_defence": 250,
+                "speed": 130
+            },
+            "catchRate": 255,
+            "maleRatio": -1,
+            "baseExperienceYield": 345,
+            "baseFriendship": 0,
+            "evYield": {
+                "hp": 3,
+                "attack": 0,
+                "defence": 0,
+                "special_attack": 0,
+                "special_defence": 0,
+                "speed": 0
+            },
+            "experienceGroup": "slow",
+            "eggCycles": 120,
+            "eggGroups": [
+                "undiscovered"
+            ],
+            "labels": [
+                "gen8",
+                "legendary"
+            ],
+            "aspects": [
+                "eternamax"
+            ],
+            "drops": {
+                "amount": 2,
+                "entries": [
+                    {
+                        "item": "lackingmegas:corrupted_essence",
+                        "quantityRange": "1-2"
+                    }
+                ]
+            },
+            "height": 1000,
+            "weight": 0,
+            "cannotDynamax": true,
+            "battleOnly": false
+        },
+        {
+            "name": "Wild",
+            "aspects": [
+                "eternamax-wild"
+            ],
+            "cannotDynamax": true,
+            "labels": [
+                "gen8",
+                "legendary"
+            ],
+            "baseScale": 10,
+            "hitbox": {
+                "width": 2.3,
+                "height": 2.4,
+                "fixed": false
+            }
+        }
+    ],
+    "behaviour": {
+        "moving": {
+            "canLook": true,
+            "fly": {
+                "canFly": true,
+                "flySpeedHorizontal": 0.35
+            }
+        }
+    }
+}

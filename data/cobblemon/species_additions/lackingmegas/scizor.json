@@ -1,0 +1,93 @@
+{
+    "target": "cobblemon:scizor",
+    "features": [
+        "mega"
+    ],
+    "evolutions": [
+        {
+            "id": "scizor_megascizor",
+            "variant": "item_interact",
+            "result": "scizor form=mega",
+            "consumeHeldItem": true,
+            "requirements": [],
+            "requiredContext": "lackingmegas:key_stone"
+        },
+        {
+            "id": "scizor_megascizor1",
+            "variant": "item_interact",
+            "result": "scizor form=mega",
+            "consumeHeldItem": false,
+            "requirements": [],
+            "requiredContext": "lackingmegas:mega_ring"
+        }
+    ],
+    "forms": [
+        {
+            "name": "base"
+        },
+        {
+            "name": "Mega",
+            "primaryType": "bug",
+            "secondaryType": "steel",
+            "abilities": [
+                "technician"
+            ],
+            "baseStats": {
+                "hp": 70,
+                "attack": 150,
+                "defence": 140,
+                "special_attack": 65,
+                "special_defence": 100,
+                "speed": 75
+            },
+            "catchRate": 25,
+            "maleRatio": 0.5,
+            "baseExperienceYield": 175,
+            "baseFriendship": 50,
+            "evYield": {
+                "hp": 0,
+                "attack": 2,
+                "defence": 0,
+                "special_attack": 0,
+                "special_defence": 0,
+                "speed": 0
+            },
+            "experienceGroup": "medium_fast",
+            "eggCycles": 25,
+            "eggGroups": [
+                "bug"
+            ],
+            "labels": [
+                "gen6",
+                "mega"
+            ],
+            "aspects": [
+                "mega"
+            ],
+            "height": 20,
+            "weight": 1250,
+            "cannotDynamax": false,
+            "battleOnly": true,
+            "evolutions": [
+                {
+                    "id": "megascizor-scizor-item_interact",
+                    "variant": "item_interact",
+                    "result": "scizor",
+                    "consumeHeldItem": true,
+                    "learnableMoves": [],
+                    "requirements": [],
+                    "requiredContext": "lackingmegas:key_stone"
+                },
+                {
+                    "id": "megascizor-scizor-item_interact",
+                    "variant": "item_interact",
+                    "result": "scizor",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [],
+                    "requiredContext": "lackingmegas:mega_ring"
+                }
+            ]
+        }
+    ]
+}

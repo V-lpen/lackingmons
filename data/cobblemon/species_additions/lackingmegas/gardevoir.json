@@ -1,0 +1,90 @@
+{
+  "target": "cobblemon:gardevoir",
+  "features": ["mega"],
+  "evolutions": [
+  {
+    "id": "gardevoir_megagardevoir",
+    "variant": "item_interact",
+    "result": "gardevoir form=mega",
+    "consumeHeldItem": true,
+    "requirements": [],
+    "requiredContext": "lackingmegas:key_stone"
+  },
+  {
+    "id": "gardevoir_megagardevoir1",
+    "variant": "item_interact",
+    "result": "gardevoir form=mega",
+    "consumeHeldItem": false,
+    "requirements": [],
+    "requiredContext": "lackingmegas:mega_ring"
+  }
+],
+  "forms": [
+  {"name": "base"
+  },
+    {
+      "name": "Mega",
+      "primaryType": "psychic",
+      "secondaryType": "fairy",
+      "abilities": [
+        "pixilate"
+      ],
+      "baseStats": {
+        "hp": 68,
+        "attack": 85,
+        "defence": 65,
+        "special_attack": 165,
+        "special_defence": 135,
+        "speed": 100
+      },
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 259,
+      "baseFriendship": 35,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 20,
+      "eggGroups": [
+        "amorphous"
+      ],
+      "labels": [
+        "gen6",
+        "mega"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "height": 16,
+      "weight": 484,
+      "cannotDynamax": false,
+      "battleOnly": true,
+	    "evolutions": [
+    {
+      "id": "megagardevoir-gardevoir-item_interact",
+      "variant": "item_interact",
+      "result": "gardevoir form=base",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "lackingmegas:key_stone"
+    },
+    {
+      "id": "megagardevoir-gardevoir-item_interact",
+      "variant": "item_interact",
+      "result": "gardevoir form=base",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "lackingmegas:mega_ring"
+    }
+  ]
+    }
+  ]
+}
