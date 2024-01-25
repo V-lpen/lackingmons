@@ -1,9 +1,9 @@
 {
   "head": "torso",
-  "portraitScale": 1.5,
-  "portraitTranslation": [0, 0, 0],
-  "profileScale": 1,
-  "profileTranslation": [0.05, 0.4, 0],
+  "portraitScale": 2.4,
+  "portraitTranslation": [-0.4, -1.7, 0],
+  "profileScale": 1.5,
+  "profileTranslation": [0.05, -0.4, 0],
   "faint":  "bedrock(dreepy, faint)",
   "poses": {
     "standing": {

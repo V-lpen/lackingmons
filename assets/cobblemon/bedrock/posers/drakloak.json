@@ -1,15 +1,15 @@
 {
    "head":"head2",
-   "portraitScale":1.5,
+   "portraitScale":1.0,
    "portraitTranslation":[
       0,
-      0,
+      2.9,
       0
    ],
-   "profileScale":1,
+   "profileScale": 0.6,
    "profileTranslation":[
       0.05,
-      0.4,
+      2.0,
       0
    ],
    "faint":"bedrock(drakloak, faint)",
