@@ -24,15 +24,7 @@
             ],
             "animations": [
                 "bedrock(archaludon, ground_idle)"
-            ],
-     "quirks": [
-       {
-         "name": "blink",
-         "animations": [
-           "bedrock(archaludon, blink)"
-         ]
-       }
-     ]
+            ]
         },
         "walking": {
             "poseName": "walking",
@@ -42,15 +34,7 @@
             ],
             "animations": [
                 "bedrock(archaludon, ground_walk)"
-            ],
-     "quirks": [
-       {
-         "name": "blink",
-         "animations": [
-           "bedrock(archaludon, blink)"
-         ]
-       }
-     ]
+            ]
         }
     }
 }

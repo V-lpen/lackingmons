@@ -1,17 +1,18 @@
 {
-    "head": "body",
-    "portraitScale": 1.8,
+    "head": "head",
+    "portraitScale": 2,
     "portraitTranslation": [
-        0,
-        0.2,
+        -0.1,
+        1.7,
         0
     ],
-    "profileScale": 1,
+    "profileScale": .6,
     "profileTranslation": [
-        0.1,
+        0,
         0.9,
         0
     ],
+ "cry": "bedrock(megaslowbro, cry)",
     "poses": {
         "standing": {
             "poseName": "standing",
@@ -23,8 +24,14 @@
                 "PROFILE"
             ],
             "animations": [
-                "bedrock(feebas, ground_idle)"
-            ]
+                "bedrock(megaslowbro, ground_idle)"
+            ],
+     "quirks": [
+       {
+         "name": "blink1",
+         "animations": ["bedrock(megaslowbro, blink1)"]
+       }
+     ]
         },
         "walking": {
             "poseName": "walking",
@@ -33,8 +40,14 @@
                 "WALK"
             ],
             "animations": [
-                "bedrock(feebas, ground_walk)"
-            ]
+                "bedrock(megaslowbro, water_swim)"
+            ],
+     "quirks": [
+       {
+         "name": "blink1",
+         "animations": ["bedrock(megaslowbro, blink1)"]
+       }
+     ]
         },
    "swimming": {
      "poseName": "swimming",
@@ -43,7 +56,13 @@
        "SWIM"
      ],
      "animations": [
-       "bedrock(feebas, water_swim)"
+       "bedrock(megaslowbro, water_swim)"
+     ],
+     "quirks": [
+       {
+         "name": "blink1",
+         "animations": ["bedrock(megaslowbro, blink1)"]
+       }
      ]
    },
    "floating": {
@@ -53,7 +72,13 @@
        "FLOAT"
      ],
      "animations": [
-       "bedrock(feebas, water_idle)"
+       "bedrock(megaslowbro, water_idle)"
+     ],
+     "quirks": [
+       {
+         "name": "blink1",
+         "animations": ["bedrock(megaslowbro, blink1)"]
+       }
      ]
    }
     }

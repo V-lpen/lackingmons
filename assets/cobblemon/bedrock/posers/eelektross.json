@@ -47,6 +47,26 @@
                 "look",
                 "bedrock(eelektross, battle_idle)"
             ]
-        }
+        },
+   "swimming": {
+     "poseName": "swimming",
+     "transformTicks": 10,
+     "poseTypes": [
+       "SWIM"
+     ],
+     "animations": [
+       "bedrock(eelektross, water_swim)"
+     ]
+   },
+   "floating": {
+     "poseName": "floating",
+     "transformTicks": 10,
+     "poseTypes": [
+       "FLOAT"
+     ],
+     "animations": [
+       "bedrock(eelektross, water_idle)"
+     ]
+   }
     }
 }

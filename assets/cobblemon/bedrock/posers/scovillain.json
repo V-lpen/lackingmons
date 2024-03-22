@@ -56,6 +56,16 @@
        }
      ]
       },
+   "sleeping": {
+     "poseName": "sleeping",
+     "transformTicks": 10,
+     "poseTypes": [
+       "SLEEP"
+     ],
+     "animations": [
+       "bedrock(scovillain, ground_idle)"
+     ]
+   },
   "battle-idle": {
      "poseName": "battle-idle",
      "transformTicks": 10,
