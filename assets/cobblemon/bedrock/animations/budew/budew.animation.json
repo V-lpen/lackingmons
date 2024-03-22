@@ -96,6 +96,19 @@
 				}
 			}
 		},
+		"animation.budew.quirk_blink": {
+			"animation_length": 0.33333,
+			"bones": {
+				"eyes": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.0417": [1, 0, 1],
+						"0.2083": [1, 0, 1],
+						"0.25": [1, 1, 1]
+					}
+				}
+			}
+		},
 		"animation.budew.faint": {
 			"animation_length": 1.45833,
 			"bones": {
