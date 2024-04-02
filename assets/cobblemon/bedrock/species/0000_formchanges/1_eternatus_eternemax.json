@@ -1,0 +1,64 @@
+{
+    "species": "cobblemon:eternatus",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": ["eternamax"],
+            "poser": "cobblemon:eternamax",
+            "model": "cobblemon:eternamax_eternatus.geo",
+            "texture": "cobblemon:textures/pokemon/eternamax/eternamax.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/eternamax/eternamax_emissive.png",
+                    "emissive": true,
+					"translucent": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "shiny","eternamax"
+            ],
+            "poser": "cobblemon:eternamax",
+            "model": "cobblemon:eternamax_eternatus.geo",
+            "texture": "cobblemon:textures/pokemon/eternamax/eternamax_shiny.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/eternamax/eternamax_emissive_shiny.png",
+                    "emissive": true,
+										"translucent": true
+                }
+            ]
+        },
+		        {
+            "aspects": ["eternamax-wild"],
+            "poser": "cobblemon:eternamax",
+            "model": "cobblemon:eternamax_eternatus.geo",
+            "texture": "cobblemon:textures/pokemon/eternamax/eternamax.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/eternamax/eternamax_emissive.png",
+                    "emissive": true,					"translucent": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "shiny","eternamax-wild"
+            ],
+            "poser": "cobblemon:eternamax",
+            "model": "cobblemon:eternamax_eternatus.geo",
+            "texture": "cobblemon:textures/pokemon/eternamax/eternamax_shiny.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/eternamax/eternamax_emissive_shiny.png",
+                    "emissive": true,					"translucent": true
+                }
+            ]
+        }
+    ]
+}
