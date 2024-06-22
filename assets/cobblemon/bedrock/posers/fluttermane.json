@@ -47,7 +47,7 @@
                 "WALK"
             ],
             "animations": [
-                "bedrock(fluttermane, ground_walk)"
+                "bedrock(fluttermane, ground_idle)"
             ],
             "quirks": [
                 {
