@@ -1,7 +1,6 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.archaludon.blink"{},
 		"animation.archaludon.oldcry": {
 			"animation_length": 2.875,
 			"bones": {
@@ -509,6 +508,19 @@
 				}
 			}
 		},
+		"animation.archaludon.blink": {
+			"animation_length": 0.125,
+			"bones": {
+				"bone2": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.0417": [1, 1, 0],
+						"0.0833": [1, 1, 0],
+						"0.125": [1, 1, 1]
+					}
+				}
+			}
+		},
 		"animation.archaludon.cry": {
 			"animation_length": 1.5,
 			"bones": {
@@ -974,7 +986,7 @@
 				},
 				"chest2": {
 					"rotation": [-37.5, 0, 0],
-					"position": [0, -0.8, 3.8],
+					"position": [0, -1.9, 3.8],
 					"scale": [1.009, 1, 1]
 				},
 				"right_leg": {
@@ -1099,9 +1111,6 @@
 					"rotation": [3, -2, 0],
 					"position": [-0.1, 0, -0.1]
 				},
-				"bone": {
-					"rotation": [1, 6, 0]
-				},
 				"right_arm2": {
 					"scale": 0.01
 				},
@@ -1203,7 +1212,7 @@
 				},
 				"chest2": {
 					"rotation": [-37.5, 0, 0],
-					"position": [0, -0.8, 3.8],
+					"position": [0, -1.7, 3.5],
 					"scale": [1.009, 1, 1]
 				},
 				"right_leg": {
@@ -1242,9 +1251,6 @@
 				"bone2": {
 					"rotation": [3, -2, 0],
 					"position": [-0.1, 0, -0.1]
-				},
-				"bone": {
-					"rotation": [1, 6, 0]
 				},
 				"right_arm2": {
 					"scale": 0.01
